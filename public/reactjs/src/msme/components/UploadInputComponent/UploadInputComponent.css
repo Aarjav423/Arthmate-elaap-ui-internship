@@ -1,0 +1,50 @@
+/* styles.css */
+
+.spanParent {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 14px;
+    border: 1px solid grey;
+    width: 270px;
+    border-radius: 8px;
+  }
+  
+  .ITRStyle {
+    margin-bottom: 10px;
+  }
+  
+  .paraStyle {
+    color: #767888;
+    margin-top: 10px;
+  }
+  
+  .parentContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .checkBoxParent {
+    /* Add any styles you need for checkBoxParent */
+  }
+  
+  .headingStyle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .spanStyle {
+    font-size: 16px;
+    font-family: Montserrat;
+    background: #FFFFFF;
+  }
+  
+
+  .lableStyle{
+    color: #134CDE;
+    cursor: pointer;
+    background: "#FFFF";
+
+  }

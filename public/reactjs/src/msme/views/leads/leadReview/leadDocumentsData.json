@@ -1,0 +1,192 @@
+[
+    {
+      "title": "Applicant",
+      "docs": [
+        {
+          "_id": {
+            "code": 1
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 1,
+          "file_type": "PAN"
+        },
+        {
+          "_id": {
+            "code": 2
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 2,
+          "file_type": "Aadhaar Front"
+        },
+        {
+          "_id": {
+            "code": 3
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 3,
+          "file_type": "Aadhaar Back"
+        },
+        {
+          "_id": {
+            "code": 4
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 4,
+  
+          "file_type": "Selfie"
+        },
+        {
+          "_id": {
+            "code": 5
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 5,
+          "file_type": "Screening Report"
+        }
+      ]
+    },
+  
+    {
+      "title": "Entity",
+      "docs": [
+        {
+          "_id": {
+            "code": 1
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 1,
+          "file_type": "Udyam Registration Certificate"
+        },
+        {
+          "_id": {
+            "code": 2
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 2,
+          "file_type": "GSTN"
+        },
+        {
+          "_id": {
+            "code": 3
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 3,
+          "file_type": "Shop Establishment Certificate"
+        }
+      ]
+    },
+    {
+      "title": "Co-Applicant-1",
+      "docs": [
+        {
+          "_id": {
+            "code": 1
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+  
+          "code": 1,
+  
+          "file_type": "PAN"
+        },
+        {
+          "_id": {
+            "code": 2
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 2,
+          "file_type": "Aadhaar Front"
+        },
+        {
+          "_id": {
+            "code": 3
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 3,
+          "file_type": "Aadhaar Back"
+        },
+        {
+          "_id": {
+            "code": 4
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 4,
+          "file_type": "Selfie"
+        }
+      ]
+    },
+    {
+      "title": "Financial Documents",
+      "docs": [
+        {
+          "_id": {
+            "code": 1
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 1,
+          "file_type": "ITR 1st Year"
+        },
+        {
+          "_id": {
+            "code": 2
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 2,
+          "file_type": "ITR 2nd Year"
+        },
+        {
+          "_id": {
+            "code": 3
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 3,
+          "file_type": "ITR 3rd Year"
+        },
+        {
+          "_id": {
+            "code": 4
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 4,
+          "file_type": "Bank Statement 1st Year"
+        },
+        {
+          "_id": {
+            "code": 5
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 5,
+          "file_type": "Bank Statement 2nd Year"
+        },
+        {
+          "_id": {
+            "code": 6
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 6,
+          "file_type": "Bank Statement 3rd Year"
+        }
+      ]
+    },
+    {
+      "title": "Additional Documents",
+      "docs": [
+        {
+          "_id": {
+            "code": 1
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 1,
+          "file_type": "Doc1"
+        },
+        {
+          "_id": {
+            "code": 2
+          },
+          "file_url": "https://elaap-s3-dev.s3.ap-south-1.amazonaws.com/loandocument/CKY0048/CKYCT/1684306781272/CKYCT-9814043309549/selfie.txt",
+          "code": 2,
+          "file_type": "Doc2"
+        }
+      ]
+    }
+  ]
+  

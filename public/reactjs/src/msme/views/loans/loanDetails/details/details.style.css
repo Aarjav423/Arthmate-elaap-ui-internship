@@ -1,0 +1,21 @@
+.details-container{
+    margin-top: 2rem;
+}
+.loan-details-accordion-head{
+    font-family: Montserrat-Regular;
+    font-size: "12px";
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6B6F80;
+}
+.loan-details-accordion-body{
+    font-family: Montserrat-Regular;
+    font-size: "16px";
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #151515;
+}

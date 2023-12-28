@@ -1,0 +1,88 @@
+import {documentCode as DocumentCodeList} from 'msme/config/docCode'
+
+export const  docSectionCode = {
+    Applicant: [
+        DocumentCodeList.applicant_selfie, 
+        DocumentCodeList.applicant_pan, 
+        DocumentCodeList.applicant_pan_XML, 
+        DocumentCodeList.applicant_aadhaar_front, 
+        DocumentCodeList.applicant_aadhaar_back, 
+        DocumentCodeList.applicant_aadhaar_XML, 
+        DocumentCodeList.applicant_aadhaar_ovd, 
+        DocumentCodeList.applicant_screening_report, 
+        DocumentCodeList.pa_cibil_report
+    ],
+    Entity: [
+      DocumentCodeList.entity_business_pan,
+      DocumentCodeList.entity_udhyam_certificate,
+      DocumentCodeList.entity_shop_establishment,
+      DocumentCodeList.entity_moa,
+      DocumentCodeList.entity_aoa,
+      DocumentCodeList.entity_coi,
+      DocumentCodeList.entity_list_directors,
+      DocumentCodeList.entity_board_resolution,
+      DocumentCodeList.entity_authority_certificate,
+      DocumentCodeList.entity_registration_certificate,
+      DocumentCodeList.entity_partnership_deed,
+      DocumentCodeList.entity_list_members,
+      DocumentCodeList.entity_screening_report,
+      DocumentCodeList.gst_certificate,
+      DocumentCodeList.llp_agreement,
+      DocumentCodeList.list_of_partners,
+      DocumentCodeList.by_laws,
+      DocumentCodeList.hunter_report,
+      DocumentCodeList.crime_report,
+    ],
+    'Co-Applicant': [
+        DocumentCodeList.cb_pan, 
+        DocumentCodeList.cb_pan_XML, 
+        DocumentCodeList.cb_aadhaar_front, 
+        DocumentCodeList.cb_aadhaar_back, 
+        DocumentCodeList.cb_aadhaar_XML, 
+        DocumentCodeList.cb_selfie, 
+        DocumentCodeList.cb_aadhaar_ovd, 
+        DocumentCodeList.cb_screening_report, 
+        DocumentCodeList.cb_cibil_report
+    ],
+    Guarantor: [
+        DocumentCodeList.guar_pan, 
+        DocumentCodeList.guar_pan_XML, 
+        DocumentCodeList.guar_aadhaar_front, 
+        DocumentCodeList.guar_aadhaar_back, 
+        DocumentCodeList.guar_aadhaar_XML, 
+        DocumentCodeList.guar_selfie, 
+        DocumentCodeList.guar_aadhaar_ovd, 
+        DocumentCodeList.guar_screening_report
+    ],
+    'Shareholding Documents': [
+        DocumentCodeList.shareholding_pattern
+    ],
+    'Financial Documents': [
+        DocumentCodeList.gstr, 
+        DocumentCodeList.gst_certificate, 
+        DocumentCodeList.itr1, 
+        DocumentCodeList.itr2, 
+        DocumentCodeList.financial_statement1, 
+        DocumentCodeList.financial_statement2, 
+        DocumentCodeList.financial_statement3, 
+        DocumentCodeList.msme_bank_statement,
+        DocumentCodeList.bank_statement_excel
+    ],
+    'Additional Documents': [
+      DocumentCodeList.affidavit,
+      DocumentCodeList.name_change_certificate,
+      DocumentCodeList.lender_noc,
+      DocumentCodeList.deviation_certificate,
+      DocumentCodeList.clearance_certificate,
+      DocumentCodeList.water_bill,
+      DocumentCodeList.house_registry,
+      DocumentCodeList.relationship_proof,
+      DocumentCodeList.credit_card_bill,
+      DocumentCodeList.telecom_bill,
+      DocumentCodeList.self_declaration,
+      DocumentCodeList.loan_statement,
+      DocumentCodeList.commercial_bureau_report,
+      DocumentCodeList.entity_udhyam_certificate,
+      DocumentCodeList.entity_board_resolution,
+    ],
+  };

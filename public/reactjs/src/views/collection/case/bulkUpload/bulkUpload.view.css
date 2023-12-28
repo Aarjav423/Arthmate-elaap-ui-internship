@@ -1,0 +1,22 @@
+.bulk-upload-container{
+    width: 96%;
+    background-color: #F0F7FF;
+    margin: 0 1.5vw 3vh 1.5vw;
+    padding: 2vh 2vw 2vh 2vw;
+    border: 1px solid #E2E2E2;
+    border-radius: 16px;
+}
+
+.bulk-upload-text{
+    font-family: Montserrat-Regular;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    color:#1C1C1C;
+}
+
+.bulk-upload-button-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 200px;
+}

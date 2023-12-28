@@ -1,0 +1,46 @@
+.selected-case-table-row-header {
+  color: #625e5e;
+  font-family: Montserrat-Regular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.selected-case-table-row-data {
+  color: #1c1c1c;
+  font-family: Montserrat-Regular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.selected-case-table-row-data-tooltip-text {
+  visibility: hidden;
+  background-color: #152067;
+  color: #fff;
+  font-family: Montserrat-Regular;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: -40px;
+  margin-left: -20px;
+  position: absolute;
+  border-style: solid;
+  border-color: #152067 transparent transparent transparent;
+  z-index: 1;
+}
+.selected-case-table-row-data:hover .selected-case-table-row-data-tooltip-text {
+  visibility: visible;
+}
+
+.selected-cases-proceed-button-container {
+  align-self: right;
+  align-content: right;
+  padding: 2px;
+  text-align: end;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0.5vw;
+}

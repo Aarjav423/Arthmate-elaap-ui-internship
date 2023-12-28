@@ -1,0 +1,116 @@
+.dropdown_select_dropdown.myDropdown {
+  width: 260px;
+  user-select: none;
+  position: relative;
+  height: fit-content;
+  height: 48px;
+
+}
+
+.dropdown_button {
+  width: inherit;
+  font-family: Montserrat-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #ffffff;
+  border: 1px solid #9e9e9e;
+  
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  /* color: #141519;  */
+  color: #989898;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 42px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdow_disable {
+  width: inherit;
+  font-family: Montserrat-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #ffffff;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  color: #989898;
+
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 42px;
+  display: flex;
+  align-items: center;
+}
+
+
+.autocomplete{
+  position: relative;
+}
+
+
+.dropdown_select_dropdown {
+  /* width: 260px; */
+  border:  '1px solid grey';
+}
+
+.dropdown_select_text {
+  margin: 0;
+  padding-bottom: 6px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #414141;
+}
+.menuItem {
+  font-size: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+ul.DropDown_Ul {
+  position: absolute;
+  z-index: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+  width: 180px;
+  max-height: 150px;
+  overflow-y: auto;
+  font-family: Montserrat-Regular;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+ul.DropDown_Ul li {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #989898;
+
+}
+
+ul.DropDown_Ul li:hover {
+  background-color: #f2f2f2;
+}
+
+

@@ -1,0 +1,61 @@
+.lead-review-detail-container{
+    display: flex;
+    flex-direction: column;
+}
+.offer-detail-image{
+    width: 243px;
+    height: 225.694px;
+    flex-shrink: 0;
+    border-radius: 9px 0px 0px 9px;
+    background: var(--primary-blue-50, #EEF6FF);
+}
+.lead-review-content{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.heading-offerGenerated{
+    color: var(--neutral-neutral-100, #141519);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.offer-detail-inputbox{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+}
+.offer-detail-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 24px;
+}
+
+.lead-review-button-container{
+    align-self: right;
+    align-content: right;
+    padding: 2px;
+    text-align: end;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0.5vw;
+    padding-bottom: 30px;
+    margin-right: 50px;
+}
+
+.text-style{
+    color: var(--neutral-neutral-100, #141519);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,32 @@
+/* Alert.css */
+.styleParentDiv{
+    display: flex;
+  margin : 4px;
+    width: 400px;
+    border-radius: 8px;
+    justify-content: space-between;
+    box-shadow:
+      rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    position: fixed;
+    top: 2;
+    right: 0;
+    z-index: 1000;
+    animation: alert-animation 0.5s ease-in-out;
+
+    
+  
+  }
+  
+  @keyframes alert-animation {
+      0% {
+        right: -10%;
+      }
+      
+      100% {
+        right: -0%;
+      }
+    }
+    
+
+    
+

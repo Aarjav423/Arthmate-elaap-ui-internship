@@ -1,0 +1,29 @@
+.alert-container {
+    padding: 0px 0px 16px 0px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #008042;
+    width: 100%;
+    height: fit-content;
+    border-radius: 8px;
+    background-color: #EEFFF7;
+}
+
+.alert-container-title {
+    display: flex;
+    color: #008042;
+    font-size: "18px";
+    align-self: stretch;
+    font-style: normal;
+    padding: 16px 17.5px 0px;
+}
+
+.alert-container-msg {
+    display: flex;
+    padding: 0px 17.5px;
+    margin-top: 4px;
+    word-break: break-word;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--neutral-100, #161719);
+}

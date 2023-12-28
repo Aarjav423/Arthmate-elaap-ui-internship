@@ -1,0 +1,39 @@
+.offerImage {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 2vw;
+    margin-bottom: 0;
+    width: auto;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.textStyleHead {
+    padding: 0% 2% 2% 0%;
+    text-align: left;
+    color: #767888;
+    margin-bottom: 0.3%;
+}
+
+.offerHead {
+    font-size: 27px;
+    font-style: 700;
+    line-height: 175%;
+    font-family: "Montserrat-bold";
+    padding-bottom: 0.25%;
+    padding-top: 3%;
+    padding-left: 6px;
+    color: black;
+    margin-bottom: 1%;
+}
+
+.containerStyle {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCDD3;
+    border-radius: 10px;
+    margin: 0% 3% 0% 0%;
+}

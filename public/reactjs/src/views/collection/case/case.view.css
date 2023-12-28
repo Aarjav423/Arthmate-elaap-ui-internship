@@ -1,0 +1,99 @@
+.case-table-row-header {
+    color: #625E5E;
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.case-table-row-data {
+    color: #1C1C1C;
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.case-table-row-data-link {
+    color: #064586;
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.case-table-row-data-tooltip-text {
+    visibility: hidden;
+    background-color: #152067;
+    color:#fff;
+    font-family: Montserrat-Regular;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: -40px;
+    margin-left: -20px;
+    position: absolute;
+  border-style: solid;
+  border-color:  #152067 transparent transparent transparent;
+    z-index: 1;
+}
+.case-table-row-data:hover .case-table-row-data-tooltip-text {
+    visibility: visible;
+}
+.case-table-row-data-link:hover .case-table-row-data-tooltip-text {
+    visibility: visible;
+}
+
+.collection-case-heading {
+    color: var(--neutral-neutral-100, #141519);
+    font-family: Montserrat-Regular;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 1.5%;
+    /* 36px */
+}
+
+.case-customer-document {
+    display: flex;
+    background-color: rgb(250, 250, 250);
+    border-radius: 16px;
+    width: 96%;
+    max-width: 90vw;
+    margin: 0px auto 10px;
+    padding-bottom: 2%;
+    padding: 16px 16px;
+    margin-bottom: 10px;
+    font-family: Montserrat-Regular-SemiBold;
+}
+
+@media only screen and (max-width: 1450px) {
+    .case-table-row-header {
+        font-size: 12px;
+    }
+
+    .case-table-row-data {
+        font-size: 12px;
+    }
+
+    .case-table-row-data-link {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .case-table-row-header {
+        font-size: 10px;
+    }
+
+    .case-table-row-data {
+        font-size: 10px;
+    }
+
+    .case-table-row-data-link {
+        font-size: 10px;
+    }
+}

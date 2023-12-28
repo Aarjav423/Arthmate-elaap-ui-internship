@@ -1,0 +1,80 @@
+.dashboard-overview-container {
+    display: flex;
+    margin: 2% 1%;
+    margin-left: 0;
+    justify-content: space-between;
+}
+
+.dashboard-overview-card-container-style {
+    width: 100%;
+    border-radius: 10%;
+    border: 2px solid #ECECEC;
+    background-color: #fff;
+    padding: 3% 3% 1% 24px;
+    margin-left: 2rem;
+}
+.dashboard-overview-card-icon-container{
+    width: 52px;
+    height: 52px;
+    border-radius: 20%;
+    border: 1px solid #ECECEC;
+    background-clip: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dashboard-overview-card-icon{
+    width: 28px;
+    height: 28px;
+}
+.dashboard-overview-card-title-container{
+    margin-top: 15%;
+}
+.dashboard-overview-card-title{
+    color: #6D6D6D;
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2rem;
+    letter-spacing: -0.25px;
+}
+.dashboard-overview-card-amount{
+    color: #404040;
+    font-family: Montserrat-Regular;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3rem;
+    letter-spacing: -0.25px;
+}
+.dashboard-overview-card-case-count{
+    margin-top: 20%;
+    color: #129A5B;
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .dashboard-overview-card-title{
+        font-size: 1.3vw;
+    }
+    .dashboard-overview-card-amount{
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .dashboard-overview-card-title{
+        font-size: 1.1vw;
+    }
+    .dashboard-overview-card-amount{
+        font-size: 1.3vw;
+    }
+}

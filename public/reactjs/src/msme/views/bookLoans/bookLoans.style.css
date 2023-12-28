@@ -1,0 +1,56 @@
+.followMeBar {
+    background: #e64a19;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+  }
+  
+  .followMeBar.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 0;
+  }
+  label.MuiInputLabel-root {
+    color: #161719;
+  }
+ 
+  .MuiOutlinedInput-root {
+    border-radius: 8px;
+  }
+  
+  .followMeBar.fixed.absolute {
+    position: absolute;
+  }
+  
+  
+.book-loan-button-container{
+    margin-top: 60px;
+    margin-right: 1.3%;
+    margin-bottom: 50px;
+}
+.book-loan-button-container-absolute-bottom {
+    position:absolute;
+    bottom: 50px;
+    right: 1.3%;
+}
+.book-loan-button-alignment-single-button{
+    display:flex;
+    flex-direction: row-reverse;
+}
+.book-loan-button-alignment-double-button {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 14px;
+}
+.book-loan-button-alignment-triple-button{
+    display: flex;
+}
+.book-loan-helper-text{
+  color: #767888;
+  font-family: Montserrat-Regular;
+  margin-left: 10px;
+  font-size: 13px;
+}

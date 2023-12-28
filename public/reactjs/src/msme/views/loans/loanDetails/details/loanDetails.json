@@ -1,0 +1,32 @@
+{
+    "Loan Details":{
+        "Partner Loan Application ID":"NA",
+        "Partner Borrower ID":"NA",
+        "Loan Application ID":"NA",
+        "Borrower ID":"NA",
+        "Partner Loan ID":"NA",
+        "A score request ID":"NA",
+        "Colender Assignment ID":"NA",
+        "Loan Application Date":"NA",
+        "Loan Amount":"NA",
+        "UMRN":"NA",
+        "Processing Fees Percentage":"NA",
+        "Processing Fees Amount":"NA",
+        "Net Disbursement Amount":"NA",
+        "Tenure":"NA"
+    },
+    "Beneficiary Bank Details":{
+        "Bank Name":"NA",
+        "Bank IFSC":"NA",
+        "Bank A/C No.":"NA",
+        "Confirm Bank A/C No.":"NA",
+        "Bank A/C Holder Name":"NA"
+    },
+    "Borrower Bank Details":{
+        "Bank Name":"NA",
+        "Bank IFSC":"NA",
+        "Bank A/C No.":"NA",
+        "Confirm Bank A/C No.":"NA",
+        "Bank A/C Holder Name":"NA"
+    }
+}

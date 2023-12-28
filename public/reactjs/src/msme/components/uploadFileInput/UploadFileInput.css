@@ -1,0 +1,63 @@
+/* styles.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.spanParent {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 14px;
+  border: 1px solid grey;
+  width: 320px;
+  border-radius: 8px;
+}
+
+.ITRStyle {
+  margin-bottom: 10px;
+}
+
+.paraStyle {
+  color: #767888;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.parentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  column-gap: 40px;
+
+}
+
+.checkBoxParent {
+  /* Add any styles you need for checkBoxParent */
+}
+
+.headingStyle {
+  margin-top: 20px;
+  position: relative;
+  top: 10px;
+  font-weight: 600;
+  color: #32325d;
+  margin-bottom: 10px;
+}
+
+.spanStyle {
+  font-size: 16px;
+  font-family: Montserrat;
+  background: #ffffff;
+}
+
+.lableStyle {
+  color: #134cde;
+  cursor: pointer;
+  background: "#FFFF";
+  margin-bottom: 0px;
+}
+
+.paraUpload {
+  font-size: 16px;
+}

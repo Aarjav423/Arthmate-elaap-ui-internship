@@ -1,0 +1,37 @@
+.audit-title {
+  margin-top: 24px;
+  color: #161719;
+  margin-left: 0px;
+  font-size: 16px;
+  font-family: Montserrat-SemiBold;
+}
+
+.audit-div {
+  color: #9ea2b3;
+  padding: 20px 0px 20px 20px;
+  margin-top: 18px;
+}
+
+.audit-header {
+  font-size: 12px;
+  font-family: Montserrat-SemiBold;
+}
+
+.audit-text {
+  font-size: 14px;
+  font-family: Montserrat-Medium;
+  margin-top: 6px;
+}
+
+.log-header {
+  color: #161719 !important;
+}
+
+.log-value {
+  color: #767888 !important;
+}
+
+.log-empty {
+  margin-top: 50px;
+  text-align: center;
+}

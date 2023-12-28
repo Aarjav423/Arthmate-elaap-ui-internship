@@ -1,0 +1,68 @@
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/* Styles for the main checkbox container */
+.checkBoxStyle {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Styles for individual input checkboxes */
+.inputCheckBoxStyle {
+    height: 25px;
+    width: 30px;
+}
+
+/* Styles for the parent button */
+.parentButtonStyle {
+    position: fixed;
+    top: 90%;
+    width: 66%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Common styles for buttons */
+.buttonStyle {
+    padding: 10px 24px;
+}
+
+/* Styles for the main components */
+.ITRComponentStyle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Styles for headings */
+.headingStyle {
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+
+/* Styles for paragraphs */
+.paraUpload {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 10px;
+    color: #767888;
+}
+
+.lableStyle-financialDoument {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #161719
+  }
+  

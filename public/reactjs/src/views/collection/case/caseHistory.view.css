@@ -1,0 +1,71 @@
+.case-history-container {
+  background-color: #fafafa;
+  border-radius: 16px 16px 16px 16px;
+  width: 96%;
+  max-width: 90vw;
+  margin: 0 auto;
+  padding-bottom: 3%;
+  overflow-x: auto;
+  box-sizing: border-box;
+  min-width: 510px;
+  max-height: 60vh;
+  position: relative;
+  overflow: auto;
+}
+
+.loading-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#case-details-coll-history::-webkit-scrollbar,
+#case-details-coll-history::-webkit-scrollbar-thumb {
+  display: none;
+  /* Hide scrollbar for WebKit browsers (Chrome, Safari, etc.) */
+}
+
+#case-details-coll-history {
+  scrollbar-width: none;
+  /* Hide scrollbar for Firefox */
+}
+
+#case-details-coll-history {
+  -ms-overflow-style: none;
+  /* Hide scrollbar for Internet Explorer/Edge */
+}
+
+.case-history-table-box {
+  font-size: 15px;
+  word-break: break-all;
+}
+
+.case-history-table-data-tooltip-text {
+  visibility: hidden;
+  background-color: #152067;
+  color: #fff;
+  font-family: Montserrat-Regular;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: -40px;
+  margin-left: -20px;
+  position: absolute;
+  border-style: solid;
+  border-color: #152067 transparent transparent transparent;
+  z-index: 1;
+}
+
+.case-history-table-box:hover .case-history-table-data-tooltip-text {
+    visibility: visible;
+}
+.case-history-table-box:hover .case-history-table-data-tooltip-text {
+    visibility: visible;
+}
+
+@media only screen and (max-width: 1450px) {
+  .case-history-table-box {
+    font-size: 12px;
+  }
+}

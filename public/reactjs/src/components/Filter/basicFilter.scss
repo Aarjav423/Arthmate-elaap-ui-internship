@@ -1,0 +1,100 @@
+// .container {
+//     display: flex;
+//     flex-wrap: wrap;
+//     gap: 1rem;
+//     padding: 0.1rem;
+//     margin: 0px;
+  
+//     .company-product-filter {
+//       display: flex;
+//       flex-wrap: wrap;
+//       gap: 1rem;
+  
+//       .company-dropdown,
+//       .product-dropdown {
+//         flex: 1;
+//         /* Customize styles */
+//       }
+//     }
+
+//     .date-picker-container {
+//         display: flex;
+//         flex-wrap: wrap;
+//         gap: 1rem;
+    
+//         .date-picker-item {
+//           flex: 1;
+//           /* Customize styles for each date picker item */
+//         }
+//       }
+  
+//     // .date-pickers {
+//     //   display: flex;
+//     //   flex-wrap: wrap;
+//     //   gap: 1rem;
+  
+//     //   .datepicker {
+//     //     flex: 1;
+//     //     /* Customize styles */
+//     //   }
+//     // }
+  
+//     .status-dropdown,
+//     .amount-input,
+//     .search-input {
+//       flex: 1;
+//       /* Customize styles */
+//     }
+  
+//     .search-button {
+//       /* Customize styles */
+//     }
+//   }
+  
+
+
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 0px;
+}
+
+.flex-container.nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+
+.company-product-filter {
+  .company-dropdown,
+  .product-dropdown,
+  .date-picker-container {
+    flex: 1;
+  }
+}
+
+.date-picker-container {
+  .date-picker-item {
+    /* Customize styles for date picker items */
+  }
+  
+  /* Rest of your date picker styles */
+}
+
+.status-dropdown,
+.amount-input,
+.search-input {
+  flex: 1;
+  /* Customize styles */
+}
+
+.search-button {
+  /* Customize styles */
+}
+
+/* Rest of your styles */
